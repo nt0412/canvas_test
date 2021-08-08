@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sample</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/08b024894a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- <canvas id="field"></canvas> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <div style="background: #009788;" class="object-title">
+                    <h5>Customer</h5>
+                </div>
+                <div style="background: #050038; " class="object-title ">
+                    <h5>Team 4</h5>
+                </div>
+                <div style="background: #050038;" class="object-title">
+                    <h5> Team 3</h5>
+                </div>
+                <div style="background: #050038;" class="object-title">
+                    <h5>Team 2</h5>
+                </div>
+                <div style="background: #050038; " class="object-title ">
+                    <h5>Team 1</h5>
+                </div>
+            </div>
+
+            <div class="col" style="position: unset;">
+                <br>
+                <canvas id="field"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="tools">
+        <button class="btn btn-primary">Undo</button>
+        <button class="btn btn-primary" style="margin-right: 10px;">Clear</button>
+
+        <button type="button" class="btn btn-dark btn-sm">Rectangle</button>
+        <button type="button" class="btn btn-dark btn-sm">Rounded Rectangle</button>
+        <button type="button" class="btn btn-dark btn-sm">Triangle</button>
+        <button type="button" class="btn btn-dark btn-sm">Rhombus</button>
+
+        <div class="color-field" style="background: red;"></div>
+        <div class="color-field" style="background: blue;"></div>
+        <div class="color-field" style="background: yellow;"></div>
+
+        <input type="color" class="color-picker">
+        <input type="range" min="1" max="100" class="pen-range">
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

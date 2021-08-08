@@ -1,0 +1,84 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+    canvas {
+        border: 2px solid #171717;
+        position: absolute;
+        border-radius: 10px;
+        z-index: 10;
+    }
+    
+    body {
+        background-color: whitesmoke;
+    }
+    
+    .object-title {
+        color: whitesmoke;
+        width: 130px;
+        height: 60px;
+        text-align: center;
+        transform: rotate(270deg);
+        margin-top: 40px;
+        padding-top: 30px;
+    }
+    
+    .tools {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .tools .color-field {
+        height: 40px;
+        width: 40px;
+        min-width: 40px;
+        min-height: 40px;
+        display: inline-block;
+        box-sizing: border-box;
+        border-radius: 50%;
+        border: 2px solid black;
+        align-self: center;
+        margin: 0 10px;
+    }
+    
+    .color-picker {
+        height: 40px;
+        width: 40px;
+        min-width: 40px;
+        min-height: 40px;
+        align-self: center;
+    }
+    
+    .pen-range {
+        align-self: center;
+        margin-left: 10px;
+    }
+    
+    #square {
+        background: #050038;
+        width: 9rem;
+        height: 2.5rem;
+        padding-top: 1.25rem;
+    }
+    
+    #rounded-square {
+        border-radius: 10px;
+        background: #009788;
+        width: 9rem;
+        height: 2.5rem;
+        padding-top: 1.25rem;
+    }
+    
+    #diamond {
+        width: 100px;
+        height: 100px;
+        background: #e86053;
+        transform: rotate(45deg);
+        transform-origin: 80% 70%;
+    }
+    
+    #triangle {
+        width: 0;
+        height: 0;
+        border-right: 70px solid transparent;
+        border-left: 70px solid transparent;
+        border-bottom: 100px solid #fabf56;
+    }
